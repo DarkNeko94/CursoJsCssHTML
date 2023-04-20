@@ -1,0 +1,50 @@
+.carousel{
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    width: 100vw;
+    max-width: 640px;
+    height: 100%;
+    box-sizing: border-box;
+    transform: translateX(-50%)
+}
+
+
+  
+  
+  li a {
+    display:flex; 
+    color: white; 
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: center;
+    position: sticky; /* Añade esta línea */
+    top: 0; /* Añade esta línea */
+  }
+
+  nav ul {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Estilo de los enlaces al pasar el mouse */
+  li a:hover {
+    background-color: #111; /* cambia el color de fondo a más oscuro */
+    animation: hover-scale-up 0.5s linear;
+    transform: scale(1.5);
+  }
+  
+  
+
+  body{
+    background-image: linear-gradient(to bottom , rgb(254, 254, 255), lightblue, rgb(187, 236, 240)); 
+    background-attachment: fixed;
+  }
+form{
+  position: fixed;
+}
